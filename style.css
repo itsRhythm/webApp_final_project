@@ -1,0 +1,57 @@
+@font-face {
+  font-family: custom;
+  src: url(League_Spartan/static/LeagueSpartan-Regular.ttf) format(truetype);
+  font-style: normal;
+}
+
+
+body {
+  padding: 0px !important;
+  font-family: Custom, Georgia;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.bg-section {
+  background-image: url(bg-01.jpg);
+  padding: 8%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-fluid {
+  padding: 0px !important;
+}
+.w-15 {
+  width: 15%;
+}
+.green {
+  background-color: #0b2719;
+}
+.img-w-squre {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+}
+.bg-tour{
+  background-position: center;
+  background-image: url(bg-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.w-10{
+  width: 10%;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1700px;
+  }
+
+}
